@@ -1,0 +1,46 @@
+:root{
+    --white: #ffffff;
+    --ink-black: #00171f;
+    --deep-space-blue: #003459;
+    --cerulean: #007ea7;
+    --fresh-sky: #00a8e8;
+}
+
+*{
+    margin: 0;
+}
+
+.active{
+    background-color: #ffffff !important;
+}
+
+.mainh1{
+    background-color: #007ea7;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+    padding: 10px;
+}
+
+.mainnav{
+    background-color: #003459;
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin: auto; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    width: 80vw;
+}
+
+.mainnav a{
+    background-color: #00a8e8;
+    border-radius: 20px;
+    color: #00171f;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    text-decoration: none;
+}
